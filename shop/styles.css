@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+#logoRedirect {
+    width: 25%;
+}
+
 #spacer0 {
     padding: 250px 55px;
 }
@@ -35,4 +39,14 @@
 
 #testImage {
     width: 55%;
+}
+
+#priceBanner {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: red;
+    outline: 2px solid #b30c00;
+    border-radius: 1rem;
 }

@@ -5,8 +5,9 @@
         "cost": "$$"
     },
     {
-        "itemName": "Totem of undying box",
-        "imagePath": "/assets/totem of undying.webp",
-        "cost": "$$"
+        "itemName": "Request an item",
+        "imagePath": "/assets/requestItem.png",
+        "cost": "Varies",
+        "extraInfo": "Don't see the item you're looking for? Request it and we might be able to find it for you."
     }
 ]

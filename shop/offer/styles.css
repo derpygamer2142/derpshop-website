@@ -1,0 +1,49 @@
+#main {
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+#logoRedirect {
+    width: 25%;
+}
+
+#spacer0 {
+    padding: 250px 55px;
+}
+
+#spacer1 {
+    padding: 77px 55px;
+}
+
+#spacer2 {
+    padding: 35px 55px;
+}
+
+#spacer3 {
+    padding: 15px 55px;
+}
+
+#spacer4 {
+    padding: 5px 55px;
+}
+
+#usernameInput {
+    font-family: "Comic Sans MS";
+}
+
+#offerInput {
+    width: 25%;
+    height: 175px;
+    position: relative;
+    top:87px;
+    left:35px;
+    font-family: "Comic Sans MS";
+    resize: none;
+}
+
+#submitButton {
+    width: 15%;
+    height: 45px;
+    border-radius: 1rem;
+    font-family: "Comic Sans MS";
+}

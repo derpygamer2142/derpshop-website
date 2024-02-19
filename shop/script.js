@@ -3,9 +3,9 @@ async function buttonStuff(e) {
     const itemClicked = e.srcElement.querySelector("h3").innerText // this is a war crime that barely works
     const encodedItemClicked = encodeURIComponent(itemClicked)
 
-    let url = `./offer?item=${encodedItemClicked}`
+    let url = `./offer/?item=${encodedItemClicked}`
     console.log(url)
-    window.location.replace(url);
+    window.location.href = url;
 
 }
 
@@ -23,7 +23,7 @@ function genItemElement(itemList,i,side) {
     let heldElement = document.createElement("img")
     heldElement.src = itemList[i].imagePath
     heldElement.alt = itemList[i].itemName
-    heldElement.style.width = "55%"
+    heldElement.style.width = "85%"
 
     heldItem.appendChild(heldElement) // item image
 
@@ -32,6 +32,14 @@ function genItemElement(itemList,i,side) {
     heldElement.id = "itemName"
     
     heldItem.appendChild(heldElement) // item name
+
+    if (itemList[i].hasOwnProperty("extraInfo")) {
+        heldElement = document.createElement("p")
+        heldElement.textContent = itemList[i].extraInfo
+        heldElement.style.maxWidth = "65%"
+        heldElement.style.paddingLeft = "17%"
+        heldItem.appendChild(heldElement)
+    }
 
     let heldElement2 = document.createElement("div")
     heldElement2.style.fontSize = "20px"

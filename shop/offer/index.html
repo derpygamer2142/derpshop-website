@@ -8,6 +8,33 @@
 </head>
 <body id="main">
 
-    <h1>wow</h1>
+    <a href="/">
+        <img src="/assets/logo large.png" id="logoRedirect" alt="Redirect to the home page">
+    </a>
+
+    <h1>Offers</h1>
+
+    <div id="spacer2"></div>
+
+    <h3>Here you can make an offer on your selected item. Enter your discord username and your offer in the boxes below, and we will get back to you as soon as possible.</h3>
+    <h3>Note: Any real world money will be donated to penguinmod.</h3>
+
+    <div id="spacer1"></div>
+
+    <form id="inputStuff">
+        <label for="usernameInput">Discord username:</label>
+        <input type="text" name="username" id="usernameInput" placeholder="username" minlength="1" maxlength="35" required>
+
+        <div></div>
+
+        <label for="offerInput">Enter your offer:</label>
+        <textarea name="offer" id="offerInput" minLength="5" maxlength="1500" placeholder="Text here..." required></textarea>
+
+        <div id="spacer1"></div>
+
+        <button id="submitButton" type="button">Send</button>
+    </form>
+
+    <script src="./script.js" type="module" defer></script>
 </body>
 </html>

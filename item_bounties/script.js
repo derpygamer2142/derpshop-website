@@ -1,19 +1,10 @@
 const bountyList = [
     {
-        "itemName": "Totem of undying",
+        "itemName": "Efficiency 5 book",
         "bounty": "2 shop items, excluding gear kits",
-        "imagePath": "/assets/totem of undying.webp"
-    },
-    {
-        "itemName": "Totem of undying",
-        "bounty": "2 shop items, excluding gear kits",
-        "imagePath": "/assets/totem of undying.webp"
-    },
-    {
-        "itemName": "Totem of undying",
-        "bounty": "2 shop items, excluding gear kits",
-        "imagePath": "/assets/totem of undying.webp"
+        "imagePath": "/assets/Enchanted_Book.gif"
     }
+
 ] // i don't edit this by hand, whatever could you mean
 
 const bountyListElement = document.getElementById("bountyList")
@@ -125,7 +116,7 @@ for (let i = 0; i < bountyList.length; i++) {
         heldBounty.style.borderRadius = "2rem"
         heldBounty.style.float = "left"
         heldBounty.style.position = "relative"
-        heldBounty.style.left = "35%" // this isn't center aligned lol
+        heldBounty.style.left = "38%" // this isn't center aligned lol
 
         heldBountySection.appendChild(heldBounty)
 

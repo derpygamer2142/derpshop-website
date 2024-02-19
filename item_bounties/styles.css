@@ -1,0 +1,64 @@
+#main {
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+#logoRedirect {
+    width: 25%;
+}
+
+#spacer0 {
+    padding: 250px 55px;
+}
+
+#spacer1 {
+    padding: 77px 55px;
+}
+
+#spacer2 {
+    padding: 35px 55px;
+}
+
+#spacer3 {
+    padding: 15px 55px;
+}
+
+
+
+
+#sec1bounty1 {
+    outline: 4px solid #919191;
+    border-radius: 2rem;
+    float:left;
+    position: relative;
+    left: 10%;
+}
+
+#sec1bounty1image {
+    width: 75%;
+}
+
+#sec1bounty2 {
+    outline: 4px solid #919191;
+    border-radius: 2rem;
+    float: right;
+    position: relative;
+    right: 10%
+}
+
+
+#sec2bounty1 {
+    outline: 4px solid #919191;
+    border-radius: 2rem;
+    float:left;
+    position: relative;
+    left: 10%;
+}
+
+#sec2bounty2 {
+    outline: 4px solid #919191;
+    border-radius: 2rem;
+    float: right;
+    position: relative;
+    right: 10%
+}

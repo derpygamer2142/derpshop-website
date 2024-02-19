@@ -1,0 +1,12 @@
+[
+    {
+        "itemName": "Totem of undying box",
+        "imagePath": "/assets/totem of undying.webp",
+        "cost": "$$"
+    },
+    {
+        "itemName": "Totem of undying box",
+        "imagePath": "/assets/totem of undying.webp",
+        "cost": "$$"
+    }
+]

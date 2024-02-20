@@ -3,6 +3,11 @@ const bountyList = [
         "itemName": "Efficiency 5 book",
         "bounty": "2 shop items, excluding gear kits",
         "imagePath": "/assets/Enchanted_Book.gif"
+    },
+    {
+        "itemName": "1 Slimeball ",
+        "bounty": "1 shop item, excluding gear kits",
+        "imagePath": "/assets/slimeball.webp"
     }
 
 ] // i don't edit this by hand, whatever could you mean

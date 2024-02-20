@@ -1,9 +1,147 @@
 [
     {
-        "itemName": "Totem of undying box",
-        "imagePath": "/assets/totem of undying.webp",
+        "itemName": "Build kit",
+        "imagePath": "/assets/build kit.png",
+        "cost": "$"
+    },
+    {
+        "itemName": "Travel kit",
+        "imagePath": "/assets/travel kit.png",
+        "cost": "$$$",
+        "extraInfo": "Elytras are enchanted with curse of vanishing."
+    },
+    {
+        "itemName": "Newbie kit",
+        "imagePath": "/assets/travel kit.png",
+        "cost": "$",
+        "extraInfo": "Elytras are enchanted with mending and unbreaking III. Arrows are insant damage II."
+    },
+    {
+        "itemName": "Basic gear kit",
+        "imagePath": "/assets/travel kit.png",
+        "cost": "$$$$",
+        "extraInfo": "Elytra has curse of vanishing. Sword has maxed enchants with sharpness, pickaxe has maxed enchants with fortune III, axe has maxed enchants but no silk touch, bow has maxed enchants with mending, all armor has mending, prop IV, thorns III and unbreaking III"
+    },
+    {
+        "itemName": "Crystal pvp kit",
+        "imagePath": "/assets/crystalpvp kit.png",
         "cost": "$$"
     },
+    {
+        "itemName": "XP bottle box",
+        "imagePath": "/assets/xp bottle box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Name tag box",
+        "imagePath": "/assets/name tag box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Paper box",
+        "imagePath": "/assets/paper box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Totem of undying box",
+        "imagePath": "/assets/totem box.png",
+        "cost": "$$$"
+    },
+
+    {
+        "itemName": "Blaze rod box",
+        "imagePath": "/assets/blaze rod box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Bread box",
+        "imagePath": "/assets/bread box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Gapple box",
+        "imagePath": "/assets/bread box.png",
+        "cost": "$$"
+    },
+
+    {
+        "itemName": "Book box",
+        "imagePath": "/assets/book box.png",
+        "cost": "$",
+        "extraInfo": "Low supply, only about 20 left!"
+    },
+
+    {
+        "itemName": "Wood box",
+        "imagePath": "/assets/wood box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Gold block box",
+        "imagePath": "/assets/gold block box.png",
+        "cost": "$$"
+    },
+
+    {
+        "itemName": "Ancient debris box",
+        "imagePath": "/assets/ancient debris box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Netherite block box",
+        "imagePath": "/assets/netherite block box.png",
+        "cost": "$$$"
+    },
+
+    {
+        "itemName": "Diamond block box",
+        "imagePath": "/assets/diamond block box.png",
+        "cost": "$$"
+    },
+
+    {
+        "itemName": "Iron block box",
+        "imagePath": "/assets/iron block box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Emerald block box",
+        "imagePath": "/assets/emerald block box.png",
+        "cost": "$$"
+    },
+
+    {
+        "itemName": "Redstone block box",
+        "imagePath": "/assets/redstone block box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Nether quartz box",
+        "imagePath": "/assets/nether quartz box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Cobblestone box",
+        "imagePath": "/assets/cobblestone box.png",
+        "cost": "$"
+    },
+
+    {
+        "itemName": "Redstone kit",
+        "imagePath": "/assets/redstone kit.png",
+        "cost": "$$"
+    },
+
     {
         "itemName": "Request an item",
         "imagePath": "/assets/requestItem.png",

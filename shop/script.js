@@ -14,6 +14,7 @@ async function buttonStuff(e) {
 function genItemElement(itemList,i,side) {
     let heldItem = document.createElement("button") // item button surrounding thing
     heldItem.style.borderRadius = "5px"
+    heldItem.style.width = "25%"
     if (side != null){
         heldItem.style.float = side
         heldItem.style.position = "relative"
